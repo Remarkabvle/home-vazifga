@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1140px;
+    margin: 0px auto;
+}
+.reklama-ovr {
+    display: flex;
+}
+.reklama-ovr li {
+    text-align: center;
+    list-style-type: none;
+    margin-right: 30px;
+}
+.reklama-ovr li a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.reklama-center  {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.Заказатьзвонок{
+    margin-left: 130px;
+
+}
+.Заказатьзвонок .btn:hover{
+    color: #4762FF;
+    background-color: #FFF;
+}
+.btn{
+        width: 179px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #4762FF;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+}
+
+/* herro */
+.bus{
+        color: #333; 
+        font-feature-settings: 'liga' off;
+        font-family: Inter;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 76px;
+        /* 126.667% */
+}
+.about-bus{
+        color: rgba(51, 51, 51, 0.80);
+        font-feature-settings: 'liga' off;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.what-do{
+    display: flex;
+    padding: 11px 37px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #4762FF;
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+        /* 166.667% */
+}
+.what-do:hover{
+    color: #4762FF;
+    background-color: #FFF
+    
+}
+.what-do:active{
+    color: black;
+     background-color: gold;
+}
+.herro{
+    display: flex;
+}
+.img-bus{
+    width: 700px;
+}
+
+
+
+/* MAIN */
+.main-sections{
+        color: #333; 
+        text-align: center;
+        font-feature-settings: 'liga' off;
+        font-family: Inter;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+
+.main-section{
+    color: rgba(51, 51, 51, 0.80);
+    
+        text-align: center;
+        font-feature-settings: 'liga' off;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.section-header{
+    color: #333;
+
+font-feature-settings: 'liga' off;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.section-text{
+    color: rgba(51, 51, 51, 0.80);
+
+font-feature-settings: 'liga' off;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+/* section2 */
+
+.where{
+    background-color: #F4F4F4;
+
+}
+.whereiswe{
+    color: #333;
+
+font-feature-settings: 'liga' off;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.sium{
+    display: flex;
+}
+
+.mik{
+    color: rgba(51, 51, 51, 0.80);
+
+font-feature-settings: 'liga' off;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+/* footer */
+footer{
+    background-color: #1A1A1A;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.text{
+    color: #FFF;
+    
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.main-text{
+    color: #FFF;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.lastest{
+    color: #D9DBE1;
+
+font-feature-settings: 'liga' off;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 200% */
+}
